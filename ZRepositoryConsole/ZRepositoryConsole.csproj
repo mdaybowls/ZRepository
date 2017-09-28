@@ -57,10 +57,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Paycor.PayrollCorp.Data\Paycor.PayrollCorp.Data.csproj">
-      <Project>{a77e2907-1031-4f28-9d61-c98052663a02}</Project>
-      <Name>Paycor.PayrollCorp.Data</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ZLog\ZLog.csproj">
       <Project>{50CFA035-4ABC-4E73-90BF-9BED7F30666E}</Project>
       <Name>ZLog</Name>

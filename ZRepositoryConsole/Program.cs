@@ -1,6 +1,4 @@
 ﻿using System;
-using Paycor.PayrollCorp.Data;
-using ZRepository;
 using ZLog;
 
 namespace ZRepositoryConsole
@@ -14,23 +12,7 @@ namespace ZRepositoryConsole
 
             try
             {
-                using (var db = new PayrollCorpContext())
-                {
-                    var uow = new GenericUnitOfWork(db);
-                    var pqRepo = uow.GetRepositoryInstance<Company>();
-                    var company = new Company
-                    {
-                        CompanyID = 1,
-                        CompanyName = "MRDTest",
-                        Inactive = "Y",
-                        UserID = "mday",
-                        DateModified = DateTime.Now
-                    };
-
-                    pqRepo.Add(company);
-                    pqRepo.Delete(new Company {CompanyID = 1});
-                    uow.SaveChanges();
-                }
+                perfTrack.Stop();
             }
             catch (Exception ex)
             {

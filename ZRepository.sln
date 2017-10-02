@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZRepositoryConsole", "ZRepo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZLog", "ZLog\ZLog.csproj", "{50CFA035-4ABC-4E73-90BF-9BED7F30666E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZRepository.Testing.Moq", "ZRepository.Testing\ZRepository.Testing.Moq.csproj", "{04271188-0E06-4333-A7AF-659DF2CB80A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{50CFA035-4ABC-4E73-90BF-9BED7F30666E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50CFA035-4ABC-4E73-90BF-9BED7F30666E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50CFA035-4ABC-4E73-90BF-9BED7F30666E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04271188-0E06-4333-A7AF-659DF2CB80A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04271188-0E06-4333-A7AF-659DF2CB80A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04271188-0E06-4333-A7AF-659DF2CB80A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04271188-0E06-4333-A7AF-659DF2CB80A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
